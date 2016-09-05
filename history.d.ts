@@ -95,4 +95,4 @@ declare module otherHistory {
 	export function useBasename<TArguments, TResult extends History>(createHistory: CreateHistory<TArguments, TResult>): CreateHistory<TArguments & BasenameOptions, TResult>;
 }
 
-export = otherHistory;
+export default otherHistory;
